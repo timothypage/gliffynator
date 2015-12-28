@@ -1,5 +1,7 @@
 # Gliffynator
 
+[![Build Status](https://travis-ci.org/timothypage/gliffynator.svg)](https://travis-ci.org/timothypage/gliffynator)
+
 make gliffy diagrams in ruby!
 
 
