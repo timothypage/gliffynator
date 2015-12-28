@@ -1,0 +1,5 @@
+require 'gliffynator/version'
+require 'gliffynator/dsl'
+require 'gliffynator/objects'
+require 'gliffynator/diagram'
+require 'gliffynator/arrow'
