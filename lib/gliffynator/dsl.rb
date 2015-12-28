@@ -8,11 +8,16 @@ module Gliffynator
     end
 
     def add_arrow(*args)
-      id = get_id_and_increment(Arrow)
+      id = get_id_and_increment(Gliffynator::Arrow)
       self.objects << Gliffynator::Arrow.create(id, *args)
     end
 
-
+    def actor(*args)
+      self.objects << Gliffynator::Actor.create(
+        get_id_and_increment(Gliffynator::Actor),
+        *args
+      )
+    end
 
   end
 end
