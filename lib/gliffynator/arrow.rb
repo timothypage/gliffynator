@@ -1,7 +1,7 @@
 class Gliffynator::Arrow < Hash
 
   def self.id_usage
-    2
+    3
   end
 
   def self.create(id, x, y, length, direction, text=false)
@@ -14,7 +14,7 @@ class Gliffynator::Arrow < Hash
       width: 143.5644622626777,
       height: 100.0,
       uid: "com.gliffy.shape.uml.uml_v1.default.message",
-      order: id-1000,
+      order: id,
       lockAspectRatio: false,
       lockShape: false,
       graphic: {

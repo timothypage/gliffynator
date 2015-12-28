@@ -16,7 +16,7 @@ describe Gliffynator::Diagram do
     end
 
     it "should set object order" do
-      expect( diagram.objects.first[:order] ).to eq( 1 )
+      expect( diagram.objects.first[:order] ).to eq( 1001 )
     end
 
     it "should set object id" do
