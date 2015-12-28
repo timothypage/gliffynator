@@ -93,7 +93,11 @@ class Gliffynator::Diagram
     self
   end
 
-  def render
+  def render( filename=nil )
+    if filename
+      return File.write(filename, @diagram.to_json)
+    end
+
     @diagram.to_json
   end
 end
