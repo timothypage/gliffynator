@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'gliffynator/version'
 
 Gem::Specification.new do |spec|
-  spec.name = ''
+  spec.name = 'gliffynator'
   spec.version = Gliffynator::VERSION
   spec.authors = ['Tim Zwolak']
   spec.email = ['timothypage@gmail.com']
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.files = `git ls-files -z`.split("\x0")
   spec.require_paths = ['lib']
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rake', '10.4.2'
+  spec.add_development_dependency 'rspec', '3.4.0'
 end
