@@ -25,7 +25,7 @@ class Gliffynator::Arrow < Hash
           fillColor: "none",
           dashStyle: nil,
           startArrow: if direction == :left then 2 else 0 end,
-          endArrow: if direction == :left then 2 else 0 end,
+          endArrow: if direction == :right then 2 else 0 end,
           startArrowRotation: "auto",
           endArrowRotation: "auto",
           interpolationType: "linear",
