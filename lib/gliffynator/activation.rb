@@ -11,7 +11,7 @@ class Gliffynator::Activation < Hash
       id: id,
       uid: "com.gliffy.shape.uml.uml_v1.default.activation",
       width: width,
-      height: 100,
+      height: height,
       lockAspectRatio: false,
       lockShape: false,
       order: id,
