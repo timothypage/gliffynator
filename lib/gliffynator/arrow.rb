@@ -40,7 +40,7 @@ class Gliffynator::Arrow < Hash
               0.0
             ]
           ],
-          lockSegments: [],
+          lockSegments: {},
           ortho: false
         }
       },
@@ -57,7 +57,7 @@ class Gliffynator::Arrow < Hash
         rotation: 0.0,
         id: id+1,
         width: 6.4 * text.length,
-        height: 14,
+        height: 14.0,
         uid: nil,
         order: "auto",
         lockAspectRatio: false,
@@ -67,7 +67,7 @@ class Gliffynator::Arrow < Hash
           Text: {
             overflow: "both",
             paddingTop: 2,
-            paddingright: 2,
+            paddingRight: 2,
             paddingBottom: 2,
             paddingLeft: 2,
             outerPaddingTop: 6,
