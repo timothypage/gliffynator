@@ -79,7 +79,7 @@ class Gliffynator::Diagram
           "com.gliffy.libraries.basic.basic_v1.default",
           "com.gliffy.libraries.images"
         ],
-        lastSerialized: DateTime.now.strftime("%Q"),
+        lastSerialized: DateTime.now.strftime("%Q").to_i,
         analyticsProduct: "Confluence"
       },
       embeddedResources: {
